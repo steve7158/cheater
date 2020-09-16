@@ -2,7 +2,7 @@
 This application is used to cheat in online protored exams. This is only meant for EDUCATION PURPOSE.
 
 # NOTE
-This application can only run linux OS
+This application can only run on linux OS
 
 # How to RUN:
 1. clone the repository.
@@ -10,7 +10,7 @@ This application can only run linux OS
 3. Open the app.py file and replace the host address at line 22 with your inet address.
 4. With this you connect to flask web app from any device as long as it is sharing the same wifi. If this method does not work try this from the doc https://flask.palletsprojects.com/en/1.1.x/quickstart/#public-server
 
-## The bellow step is a little is a little confusing its basically for making a keylogger  
+## The bellow step is a little confusing its basically for making a keylogger  
 5. Check the event for your keybord with `cat /proc/bus/input/devices`, find all "keybord" in name, along with its coresponding handler where you will find its event, reffer here if needed https://dzone.com/articles/how-to-create-a-keylogger-for-linux-using-python 
 6. Check your event typing `cat /dev/input/event4`(in my case it was event4), Now press any key on your keybord, if you find any random output on the terminal then we are on right track.
 7. Copy path to your event file and paste it in your cheeter.py file in variable file_name at line 135
