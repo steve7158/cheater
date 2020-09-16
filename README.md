@@ -16,6 +16,7 @@ This application can only run on linux OS
 7. Copy path to your event file and paste it in your cheeter.py file in variable file_name at line 135
 
 It seems the pyautogui throws `Xlib.error.DisplayConnectionError` to troubleshoot the error faced while running cheeter.py file (refference https://github.com/mooz/xkeysnail)
+
 8. `sudo pip3 install xkeysnail`
 9.  Run this in terminal `xhost +SI:localuser:root`
 
